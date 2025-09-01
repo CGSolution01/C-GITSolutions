@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C&G IT Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>C&G IT Solutions</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#quotation">Quotations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Your Reliable IT Partner</h2>
+        <p>Hands-on troubleshooting, hardware & software Solutions.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            At C&G IT Solutions, we specialize in delivering fast, reliable hardware and software solutions tailored to your needs. Whether you’re facing computer issues, need upgrades, or want expert advice, our experienced team is dedicated to keeping your technology running smoothly. Trust us for hands-on troubleshooting, repairs, and support that put your business and personal devices back on track.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Hands-on Troubleshooting</li>
+            <li>Hardware Repair</li>
+            <li>Software Repair</li>
+            <li>Virus & Malware Removal</li>
+            <li>System Upgrades</li>
+            <li>Consultation & Support</li>
+            <li>Windows installation</li>
+        </ul>
+    </section>
+
+    <section id="quotation">
+        <h2>Request a Quotation</h2>
+        <form id="quoteForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Service Needed:</label>
+            <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="Troubleshooting">Hands-on Troubleshooting</option>
+                <option value="Hardware Repair">Hardware Repair</option>
+                <option value="Software Repair">Software Repair</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="details">Details:</label>
+            <textarea id="details" name="details" required></textarea>
+
+            <button type="submit">Request Quote</button>
+        </form>
+        <div id="quoteResponse"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="cgitsolutions263@gmail.com">cgitsolutions263@gmail.com</a></p>
+        <p>Phone: <a href="tel 0764272953">076427953</a></p>
+        <p>Location: 550 broken hill avenue Eersterust, pretoria 0022</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 C&G IT Solutions. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
